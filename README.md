@@ -1,3 +1,10 @@
+Do inference in fast ACVNet with any left and right image pair.
+# Usage
+```
+python inference.py --left [LEFT IMG PATH] --right [RIGHT IMG PATH] --output [OUTPUT PATH] --loadckpt [PRETRAINED CKPT PATH] --maxdisp [MAX DISPARITY]
+```
+
+###  Original readme:
 # Fast-ACVNet
 
 Paper:[[arxiv]](https://arxiv.org/pdf/2209.12699.pdf)
